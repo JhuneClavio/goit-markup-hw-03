@@ -11,7 +11,6 @@ h1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
-    text-transform: uppercase;
 }
 
 h2 {
@@ -29,8 +28,35 @@ h3 {
     line-height: 1.2;
 }
 
+.container {
+    width: 1158px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 156px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
 .banner {
     background-color: var(--NAVY-BLUE);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
+.banner button {
+    background-color: var(--IRIS);
+    color: white;
+    padding: 16px 32px;
 }
 
 a {
@@ -39,6 +65,22 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 156px 0 156px;
+}
+
+.products {
+    padding-top: 0;
+}
+
+.team {
+    background-color: var(--CLOUD);
+    margin: auto;
+    text-align: center;
 }
 
 .link:hover {
@@ -51,12 +93,19 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-align: left;
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 24px;
 }
 
 button:hover {
     background-color: var(--IRIS);
-    color: white
+    color: white;
 }
 
 body {
@@ -67,6 +116,29 @@ body {
 ul {
     list-style: none;
     padding-left: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    padding-left: 0 16px;
+}
+
+.list {
+    gap: 40px;
+    padding-left: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio {
+    gap: 40px;
+    display: flex;
+    margin: 100px 0 100px 0;
+    align-items: center;
 }
 
 .logo {
@@ -82,8 +154,12 @@ ul {
 footer {
     color: var(--CLOUD);
     background-color: var(--NAVY-BLUE);
+    width: auto;
+    height: 312px;
+    padding-left: 156px;
+    padding-top: 101.5px;
 }
 
-footer .logo {
+footer .logo  {
     color: var(--CLOUD);
 }
