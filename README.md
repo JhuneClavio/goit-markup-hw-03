@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-**Homework 2 - CSS Basics**
+**Homework 3 - Block Model. Flexbox.**
